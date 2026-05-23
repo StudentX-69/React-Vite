@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #dfe8d8;
+  padding:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+  
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top img{
+  height: 38px;
+  width: 36px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 2px;
+  object-fit: contain;
+}
+.top button,
+.bottom button{
+  border: 0;
+  cursor: pointer;
+}
+.top button{
+  padding: 8px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f1f1f1;
+}
+.center h3{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.center h3 span{
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+}
+.center h2{
+  font-size: 28px;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.center div{
+  display: flex;
+  gap: 8px;
+}
+.center h4{
+  border: 1px solid #dddddd;
+  border-radius: 18px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom h3{
+  font-size: 18px;
+}
+.bottom p{
+  color: #777777;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.bottom button{
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 14px;
+}
