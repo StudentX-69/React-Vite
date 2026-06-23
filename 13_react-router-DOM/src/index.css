@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+h2{
+    font-size: larger;
+    color: white;
+}
+h3{
+    color: white;
+}
+#nav{
+    background-color: black;
+}
+#links{
+    gap: 20px;
+    font-size: large;
+    margin: 10px;
+  display: flex;
+  justify-content: end;
+}
+#links a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+p{
+font-size: xx-large;
+font-weight: 800;
+}
